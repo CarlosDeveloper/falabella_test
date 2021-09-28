@@ -1,0 +1,28 @@
+Programming Language: PHP ^7.4.3
+Wen need a php server like xampp, wampp, nginx, Etc.. to run app.
+
+we need to get composer
+run these commands  to get phpunit for unit tests
+composer require --dev phpunit/phpunit ^9
+composer dump-autoload  -o
+
+commands for run tests
+
+
+
+skeleton app
+
+Directory src = source code
+Directory Interfaces = Interface for operate multiples
+Directory Multiples = classes for get multiples of three and five
+Directory ValidateMultiple = class for validate if a number is multiple regardless if it is 3 or 5
+Directory Messages = for set and get messages.
+Directory tests = contain unit tests.
+
+To execute the unit tests apply the following commands.
+
+php vendor/phpunit/phpunit/phpunit tests/MultipleOfThreeTest.php
+php vendor/phpunit/phpunit/phpunit tests/MultipleOfFiveTest.php
+php vendor/phpunit/phpunit/phpunit tests/IsMultipleTest.php
+php vendor/phpunit/phpunit/phpunit tests/SetMessageTest.php
+php vendor/phpunit/phpunit/phpunit tests/GetMessageTest.php
