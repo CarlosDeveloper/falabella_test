@@ -1,7 +1,7 @@
 Programming Language: PHP ^7.4.3
 Wen need a php server like xampp, wampp, nginx, Etc.. to run app.
 
-we need to get composer
+Install composer in your system for get phpunit
 run these commands  to get phpunit for unit tests
 composer require --dev phpunit/phpunit ^9
 composer dump-autoload  -o
